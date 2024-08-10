@@ -1,0 +1,244 @@
+header nav a {
+  color: #212121;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+header .right a {
+  color: #757575;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #2196f3;
+}
+
+.cover {
+  background-color: #2F303A;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover .content h1 {
+  color: #FFF;
+text-align: center;
+font-size: 44px;
+font-family: Roboto;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 2.64px;
+text-transform: uppercase;
+margin: 0 auto;
+margin-bottom: 20px;
+max-width: 700px;
+}
+
+.cover .content button {
+  border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+width: 200px;
+height: 50px;
+color: #FFF;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+border: none;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 768px) {
+  .cover {
+    height: 300px;
+  }
+
+  .cover .content h1 {
+    font-size:24px;
+    font-family: Roboto;
+    font-weight: 900;
+    line-height: 30px;
+  }
+
+  .cover .content button {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  font-size: 8px;
+  }
+
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description h3 {
+  color: #212121;
+font-size: 14px;
+font-family: Roboto;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+line-height: 16px;
+}
+
+.description p {
+  color: #757575;
+font-size: 14px;
+font-family: Roboto;
+line-height: 24px;
+letter-spacing: 0.42px;
+max-width: 270px;
+}
+
+/* --------------------- */
+
+.images h2 {
+  color: #212121;
+text-align: center;
+font-size: 36px;
+font-family: Roboto;
+font-weight: 700;
+letter-spacing: 1.08px;
+padding-bottom: 50px;
+}
+
+.images img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+@media (max-width: 270px) {
+ 
+  .images  h2 {
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+  }
+
+}
+.developer {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.card{
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.developer h2 {
+  color: #212121;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  padding-bottom: 20px;
+}
+
+.developer .card img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.developer .card h5 {
+  color: #212121;
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+  margin-bottom: 10px;
+}
+
+.developer .card p {
+  color: #757575;
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto;
+  letter-spacing: 0.48px;
+}
+@media (max-width: 270px) {
+ 
+  .developer  h2 {
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+  }
+  .developer .card {
+    width: auto;
+    height: auto;
+  }
+}
+.developer .card {
+  padding: 0;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    width: 253px;
+    height: 367px;
+}
+.developer .row{
+  justify-content: center;
+}
+
+footer {
+  background-color: #2f303a;
+  height: auto;
+}
+
+ footer img {
+  margin-left: 150px;
+  margin-top: 90px;
+  max-width: 100%;
+}
+
+footer p {
+  margin-left: 150px;
+  margin-top: 20px;
+  color: white;
+  max-width: 100%;
+}
+
+
+@media (max-width: 424px) {
+  footer .container{
+    justify-content: center;
+  }
+  footer img {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
+  footer p {
+    margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+  }
+}
+@media (max-width: 375px) {
+  footer img{
+    justify-content: center;
+    margin-left: 99px;
+  }
+}
